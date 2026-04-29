@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Download Aiconnexio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>
+    function redirectToStore() {
+      var ua = navigator.userAgent || navigator.vendor || window.opera;
+
+      if (/iPhone|iPad|iPod/.test(ua)) {
+        window.location.href = "https://apps.apple.com/in/app/aiconnexio/id6757999961";
+      } else if (/Android/.test(ua)) {
+        window.location.href = "https://play.google.com/store/apps/details?id=com.harman.aiconnexio";
+      }
+    }
+  </script>
+</head>
+
+<body onload="redirectToStore()" style="font-family: Arial, sans-serif; text-align: center; padding: 40px;">
+  <h2>Aiconnexio Mobile Application</h2>
+  <p>Redirecting you to the appropriate app store...</p>
+
+  <p>If you are not redirected automatically, click below:</p>
+
+  <p>
+    https://apps.apple.com/in/app/aiconnexio/id6757999961App Store</a><br><br>
+    https://play.google.com/store/apps/details?id=com.harman.aiconnexioGoogle Play</a>
+  </p>
+</body>
+</html>
